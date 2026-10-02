@@ -1,83 +1,80 @@
 # OMR Sheet
 
-![Static Badge](https://img.shields.io/badge/Developed%20By-Nosib%20Biswas-blue)
-![Static Badge](https://img.shields.io/badge/version-1.0.1-red)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-OMR%20Sheet-d13a31?style=for-the-badge)](https://nosibbiswas22.github.io/omr/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)](LICENSE)
 
 ## Overview
 
-The OMR (Optical Mark Recognition) Sheet application is designed to facilitate the administration of examinations by allowing users to set up an OMR sheet with customizable parameters. This project was developed by Nosib Biswas.
+OMR Sheet is a lightweight, browser-based exam answer sheet for multiple-choice tests. Configure the number of questions and exam duration, then use a clean, responsive interface to answer, navigate, and submit without a backend or build step.
+
+It is designed for quick practice sessions, classroom demonstrations, and small exams where a simple digital OMR experience is all that is needed.
 
 ## Features
 
-- User-friendly interface for setting up OMR sheets
-- Dynamic generation of questions based on user input
-- Countdown timer for exam duration
-- Highlighting and locking of answers
-- Keyboard navigation and selection
-- Reset functionality to clear answers and restart the exam
+- Generate a custom answer sheet with any number of questions
+- Set a countdown timer for each exam session
+- Answer multiple-choice questions from A to D
+- Lock answers after selection to mirror a traditional OMR workflow
+- Navigate questions with the mouse or keyboard
+- Use number keys `1` to `4` to select answers quickly
+- Reset the sheet and timer for a fresh attempt
+- Run locally or deploy as a static GitHub Pages site
 
 ## Live Demo
-- Website: (https://nosibbiswas22.github.io/omr/)
 
-## Technologies Used
+Try OMR Sheet at [nosibbiswas22.github.io/omr](https://nosibbiswas22.github.io/omr/).
 
-- HTML
-- CSS
-- JavaScript
+## Built With
 
-## Installation
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-1. Clone the repository:
+## Getting Started
 
-   ```bash
-   git clone https://github.com/NOSIBBiswas22/omr.git
-   ```
+### Run Locally
 
-3. Open `index.html` in your preferred web browser.
+Clone the repository:
 
-## Usage Guide
+```bash
+git clone https://github.com/NOSIBBiswas22/omr.git
+cd omr
+```
 
-### Setup the Exam:
-- Enter the number of questions.
-- Enter the exam duration in minutes.
-- Click on the "Start Exam" button to proceed.
+Open `index.html` in a browser. No package installation or build process is required.
 
-### Answering Questions:
-- Each question will be displayed with multiple choice answers (A, B, C, D).
-- Click on the radio button to select your answer.
-- Once you select an answer, it will be locked, and you will not be able to change it.
+### Use the App
 
-### Navigating Questions:
-- Use the arrow keys to move between questions.
-- Press 'Enter' to lock the selected answer and move to the next question.
+1. Enter the number of questions and exam duration in minutes.
+2. Select **Start Exam**.
+3. Choose an answer for each question. Selected answers are locked automatically.
+4. Use `Arrow Up` and `Arrow Down` to move between questions, or use the mouse.
+5. Select **Reset** to start over or **Done** to finish the session.
 
-### Exam Timer:
-- A countdown timer will display the remaining time for the exam.
-- If the time runs out, all answers will be locked.
+## Project Structure
 
-### Resetting the Exam:
-- Click the "Reset" button to clear all selected answers and restart the timer.
+```text
+omr/
+├── index.html   # Application markup
+├── style.css    # Layout and visual styles
+├── script.js    # Timer, navigation, and answer logic
+└── LICENSE      # MIT License
+```
 
-### Submitting Answers:
-- Click the "Done" button to submit your answers.
-- An alert will display a summary of your submitted answers.
+## Contributing
 
-## Contact
+Suggestions and improvements are welcome. Fork the repository, create a feature branch, make your changes, and open a pull request with a clear description of the update.
 
-For any questions or contributions, please feel free to reach out via [GitHub](https://github.com/NOSIBBiswas22/).
- [Facebook](https://www.facebook.com/nosib.biswas.227).
- [Website](https://nosibbiswas22.github.io/nosibbiswas/).
+## Author
 
-## Date
+Created by [Nosib Biswas](https://github.com/NOSIBBiswas22).
 
-Last updated: October 24, 2024
+- [Personal website](https://nosibbiswas22.github.io/nosibbiswas/)
+- [Facebook](https://www.facebook.com/nosib.biswas.227)
 
 ## License
 
-Copyright (c) [2024] [Nosib Biswas]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-2. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This project is licensed under the [MIT License](LICENSE).
